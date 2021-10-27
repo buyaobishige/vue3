@@ -994,6 +994,18 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fortawesome/fontawesome-common-types@^0.2.36":
+  version "0.2.36"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.36.tgz#b44e52db3b6b20523e0c57ef8c42d315532cb903"
+  integrity sha512-a/7BiSgobHAgBWeN7N0w+lAhInrGxksn13uK7231n2m8EDPE3BMCl9NZLTGrj9ZXfCmC6LM0QLqXidIizVQ6yg==
+
+"@fortawesome/free-solid-svg-icons@^5.15.3":
+  version "5.15.4"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-5.15.4.tgz#2a68f3fc3ddda12e52645654142b9e4e8fbb6cc5"
+  integrity sha512-JLmQfz6tdtwxoihXLg6lT78BorrFyCf59SAwBM6qV/0zXyVeDygJVb3fk+j5Qat+Yvcxp1buLTY5iDh1ZSAQ8w==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.36"
+
 "@hapi/address@^2.1.2":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -4006,6 +4018,11 @@ cookie-signature@1.0.6:
   resolved "https://registry.yarnpkg.com/cookie-signature/-/cookie-signature-1.0.6.tgz#e303a882b342cc3ee8ca513a79999734dab3ae2c"
   integrity sha1-4wOogrNCzD7oylE6eZmXNNqzriw=
 
+cookie-storage@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/cookie-storage/-/cookie-storage-6.1.0.tgz#291b2f662d961be44f999626593421cbfcf23790"
+  integrity sha512-HeVqbVy8BjXhAAuFtL6MTG+witHoLbxfky2jgVh9FmxmyL6IKa9gSSyPNjevXCCCxPu6Tzd9J8+eXTRQzYU/cg==
+
 cookie@0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.4.0.tgz#beb437e7022b3b6d49019d088665303ebe9c14ba"
@@ -4015,6 +4032,11 @@ copy-descriptor@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
   integrity sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
+
+copy-text-to-clipboard@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/copy-text-to-clipboard/-/copy-text-to-clipboard-3.0.1.tgz#8cbf8f90e0a47f12e4a24743736265d157bce69c"
+  integrity sha512-rvVsHrpFcL4F2P8ihsoLdFHmd404+CMg71S756oRSeQgqk51U3kicGdnvfkrxva0xXH92SjGS62B0XIJsbh+9Q==
 
 copy-webpack-plugin@^8.0.0:
   version "8.1.0"
@@ -4037,10 +4059,15 @@ core-js-compat@^3.8.1, core-js-compat@^3.8.3, core-js-compat@^3.9.0:
     browserslist "^4.16.3"
     semver "7.0.0"
 
-core-js@3.10.0, core-js@^3.8.3:
+core-js@3.10.0:
   version "3.10.0"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.10.0.tgz#9a020547c8b6879f929306949e31496bbe2ae9b3"
   integrity sha512-MQx/7TLgmmDVamSyfE+O+5BHvG1aUGj/gHhLn1wVtm2B5u1eVIPvh7vkfjwWKNCjrTJB8+He99IntSQ1qP+vYQ==
+
+core-js@^3.11.0, core-js@^3.8.3:
+  version "3.19.0"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.19.0.tgz#9e40098a9bc326c7e81b486abbd5e12b9d275176"
+  integrity sha512-L1TpFRWXZ76vH1yLM+z6KssLZrP8Z6GxxW4auoCj+XiViOzNPJCAuTIkn03BGdFe6Z5clX5t64wRIRypsZQrUg==
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -8634,7 +8661,6 @@ minipass-fetch@^1.3.0, minipass-fetch@^1.3.2:
   resolved "https://registry.yarnpkg.com/minipass-fetch/-/minipass-fetch-1.3.3.tgz#34c7cea038c817a8658461bf35174551dce17a0a"
   integrity sha512-akCrLDWfbdAWkMLBxJEeWTdNsjML+dt5YgOI4gJ53vuO0vrmYQkUPxa6j6V65s9CcePIr2SSWqjT2EcrNseryQ==
   dependencies:
-    encoding "^0.1.12"
     minipass "^3.1.0"
     minipass-sized "^1.0.3"
     minizlib "^2.0.0"
@@ -11825,6 +11851,11 @@ supports-hyperlinks@^2.0.0:
     has-flag "^4.0.0"
     supports-color "^7.0.0"
 
+svelte-fa@^2.2.1:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/svelte-fa/-/svelte-fa-2.3.3.tgz#b136b32f397ec64fb708b8a6ff5578bdd65f5be7"
+  integrity sha512-Izq+L4H9FEsoClSsYe35KuMP+2CUltJq8eP6qrQp9q52zYxRNMQTO3dYylr6K1fFmhKiWcw9q1hUzIiyrJx8dQ==
+
 svg-tags@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/svg-tags/-/svg-tags-1.0.0.tgz#58f71cee3bd519b59d4b2a843b6c7de64ac04764"
@@ -12153,11 +12184,6 @@ tr46@^2.0.2:
   integrity sha512-3n1qG+/5kg+jrbTzwAykB5yRYtQCTqOGKq5U5PE3b0a1/mzo6snDhjGS0zJVJunO0NrT3Dg1MLy5TjWP/UJppg==
   dependencies:
     punycode "^2.1.1"
-
-transitionEnd@^1.0.2:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/transitionEnd/-/transitionEnd-1.0.3.tgz#d6f36d3d4e6e4c598a14ddfc06a5eb04c7068455"
-  integrity sha512-NSkzI3Voy6ZVPe02dyHp30R3+VtkktQEqsqDQjJ41bdrSlbSvjUp0pZoocS/qAiq9dBFTmCG+fYx4OC/MOSf0w==
 
 trim-newlines@^1.0.0:
   version "1.0.0"
@@ -12569,13 +12595,17 @@ vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-vconsole@3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/vconsole/-/vconsole-3.4.0.tgz#2cf2ffaa86cd7ab736997a22b63d05627c6ab567"
-  integrity sha512-N9py7Ch9M9nzsigYf8T/WHIOood7jq2MNtUWDqicnrCsPsOZj8Z3NsmFgBmDA3bPKwnzace11HXHxYKPfwV32A==
+vconsole@3.9.4:
+  version "3.9.4"
+  resolved "https://registry.yarnpkg.com/vconsole/-/vconsole-3.9.4.tgz#a54356b12fc63456503762f687a65f9c470f968d"
+  integrity sha512-5rZn36eKqhANrT5ThR7QAmdal46kW5bVlonf6BFv/EWlphdG2E783MdZ6/AcBOkDNBW9V1G76Tykfkdk04JOYg==
   dependencies:
+    "@fortawesome/free-solid-svg-icons" "^5.15.3"
+    cookie-storage "^6.1.0"
+    copy-text-to-clipboard "^3.0.1"
+    core-js "^3.11.0"
     mutation-observer "^1.0.3"
-    transitionEnd "^1.0.2"
+    svelte-fa "^2.2.1"
 
 vendors@^1.0.0, vendors@^1.0.3:
   version "1.0.4"
