@@ -1874,10 +1874,10 @@
     lodash.kebabcase "^4.1.1"
     svg-tags "^1.0.0"
 
-"@vue/babel-preset-app@^5.0.0-alpha.8":
-  version "5.0.0-alpha.8"
-  resolved "https://registry.yarnpkg.com/@vue/babel-preset-app/-/babel-preset-app-5.0.0-alpha.8.tgz#4b590706e30c2de371223e89a2d3cbaf23559cad"
-  integrity sha512-C9DEtQhb97K1i08r4/GJFf70NRfXSzqlWJu+5DlVRfDIf2UV6GZzKzc5RAjOh5xvql1b6ZZzNwN4Ioc7Vy9U5Q==
+"@vue/babel-preset-app@^5.0.0-rc.0":
+  version "5.0.0-rc.0"
+  resolved "https://registry.yarnpkg.com/@vue/babel-preset-app/-/babel-preset-app-5.0.0-rc.0.tgz#54644a87c0c55d91e5cd724c7b151de15d1dbe4e"
+  integrity sha512-44+ibKgrKH/gCKq13Yo6CVDRnuFkUEXN6LVoKQPHL9d4bs/3MEnOdG+Rz9PzMJjB2hgLVqf2nlfbpmNmtaMh7A==
   dependencies:
     "@babel/core" "^7.12.16"
     "@babel/helper-compilation-targets" "^7.12.16"
@@ -1964,14 +1964,14 @@
   resolved "https://registry.yarnpkg.com/@vue/cli-overlay/-/cli-overlay-5.0.0-alpha.8.tgz#225574d6d24374fe9d44f1adf5bd9a10b052c2a8"
   integrity sha512-lxsfUfm2vN0pCrgvZArAxhH3p2yTBThVzcXXYV7Sm21efHYHV68Hpwa3wPf6eIyVT1FtKsRDVLU8Wn1RXIEo6w==
 
-"@vue/cli-plugin-babel@5.0.0-alpha.8":
-  version "5.0.0-alpha.8"
-  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-babel/-/cli-plugin-babel-5.0.0-alpha.8.tgz#4519a054bfffe0e5a47472f9ccb86c42765832d6"
-  integrity sha512-TwMVWYYQTmO7+wGqy0hZ42cdQMmESzMDccK8fd8U39kFts/4/cq1wCHCbX/sKcU7hVGrMA05c/S1fw885FOH7g==
+"@vue/cli-plugin-babel@5.0.0-rc.0":
+  version "5.0.0-rc.0"
+  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-babel/-/cli-plugin-babel-5.0.0-rc.0.tgz#288520e83aa2d3a19bb80dd9e9c5d1d3482b8757"
+  integrity sha512-hYwR/1iAKR/s0PHE8s1IxrA1YyZBGrcGXke4eSx2iwDLodUUq/ZXPRKOeWkiJ8aBMJq3yoQdERTA795SoSzSnA==
   dependencies:
     "@babel/core" "^7.12.16"
-    "@vue/babel-preset-app" "^5.0.0-alpha.8"
-    "@vue/cli-shared-utils" "^5.0.0-alpha.8"
+    "@vue/babel-preset-app" "^5.0.0-rc.0"
+    "@vue/cli-shared-utils" "^5.0.0-rc.0"
     babel-loader "^8.2.2"
     thread-loader "^3.0.0"
     webpack "^5.22.0"
@@ -2112,12 +2112,12 @@
     webpack-merge "^5.7.3"
     webpack-virtual-modules "^0.4.2"
 
-"@vue/cli-shared-utils@^5.0.0-alpha.8":
-  version "5.0.0-alpha.8"
-  resolved "https://registry.yarnpkg.com/@vue/cli-shared-utils/-/cli-shared-utils-5.0.0-alpha.8.tgz#e1565b7912668174977cfa7e3370ae21699554ea"
-  integrity sha512-mM40O+ULK17nM+XEZJDnNd+lBUriANoTsozNWbJ0q5lJ6Uet5RC8L6J9h0vsMMkhQ3oFWFUCLIV/J48XoxCsFQ==
+"@vue/cli-shared-utils@^5.0.0-alpha.8", "@vue/cli-shared-utils@^5.0.0-rc.0":
+  version "5.0.0-rc.0"
+  resolved "https://registry.yarnpkg.com/@vue/cli-shared-utils/-/cli-shared-utils-5.0.0-rc.0.tgz#62429b8baaec3a9c9afe49bb14ea1cdd237c7a8b"
+  integrity sha512-pcNDDXSP4PXO3EZCBmOGKH8xeqkcgglsNV91/f6IwjGYCCcnA2RpS79Ev+jTBUe+n4WmShndcHg7R9jCFzR8cg==
   dependencies:
-    chalk "^4.1.0"
+    chalk "^4.1.2"
     execa "^1.0.0"
     joi "^17.4.0"
     launch-editor "^2.2.1"
@@ -3319,6 +3319,14 @@ chalk@^4.0.0, chalk@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.0.tgz#4e14870a618d9e2edd97dd8345fd9d9dc315646a"
   integrity sha512-qwx12AxXe2Q5xQ43Ac//I6v5aXTipYrSESdOgzrN+9XjgEpyjpKuvSGaN4qE93f7TQTlerQQ8S+EQ0EyDoVL1A==
+  dependencies:
+    ansi-styles "^4.1.0"
+    supports-color "^7.1.0"
+
+chalk@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
+  integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
@@ -8634,7 +8642,6 @@ minipass-fetch@^1.3.0, minipass-fetch@^1.3.2:
   resolved "https://registry.yarnpkg.com/minipass-fetch/-/minipass-fetch-1.3.3.tgz#34c7cea038c817a8658461bf35174551dce17a0a"
   integrity sha512-akCrLDWfbdAWkMLBxJEeWTdNsjML+dt5YgOI4gJ53vuO0vrmYQkUPxa6j6V65s9CcePIr2SSWqjT2EcrNseryQ==
   dependencies:
-    encoding "^0.1.12"
     minipass "^3.1.0"
     minipass-sized "^1.0.3"
     minizlib "^2.0.0"
